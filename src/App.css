@@ -66,8 +66,7 @@ h2{
 }
 
 .site-header {
-  padding-left: 10%;
-  width: 95%;  /* Extend full width of the viewport */
+  width: 100%;  /* Extend full width of the viewport */
   height: 100px;  /* Fixed height for consistency */
 
   display: flex;
@@ -107,12 +106,11 @@ h2{
 }
 
 #siege-logo{
-  width: 200px;
-  height: auto;
-  position: absolute;
-  top: 5px;
-  left: 50px;
+  width: auto;
+  height: 8vh;
   z-index: 2;
+  border-radius: 5px;
+  opacity: 0.85;
 }
 
 

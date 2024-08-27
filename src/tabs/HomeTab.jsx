@@ -36,7 +36,7 @@ const storage = getStorage(app);
 function HomeTab() {
 
    const [publications, setPublications] = React.useState([]);
-   const [researchAreas, setResearchAreas] = React.useState("none");
+   const [researchAreas, setResearchAreas] = React.useState("AI");
    const [news, setNews] = React.useState([]);
    const [newsKey, setNewsKey] = React.useState(0);
 
